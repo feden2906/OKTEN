@@ -120,11 +120,10 @@ header {
     line-height: 26px;
     color: #fff;
     background: #FF9638;
-    border-radius: 5px;
     border: none;
     margin-top: 120px;
     transform: perspective(1500px) rotateY(15deg);
-    border-radius: 1rem;
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     transition: tramsform 1s ease 0s;
     cursor: pointer;
