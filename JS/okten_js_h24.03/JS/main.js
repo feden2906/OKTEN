@@ -208,7 +208,7 @@ for (let i = 0; i < pushedArr.length; i++) {
 }
 
 - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
-for (let i = 0; i < 10; i++){
+for (let i = 0; i < 10; i++) {
     document.write(i);
     console.log(i);
 }
