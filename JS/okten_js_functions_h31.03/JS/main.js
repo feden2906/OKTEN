@@ -225,25 +225,27 @@
 // let n1 = 'Harry Potter'
 // let n2 = 'Ron Whisley'
 // let n3 = 'Hermione Granger'
-// let n1 = '    Harry       Potter      '
-// let n2 = '    Ron       Whisley      '
-// let n3 = '    Hermione       Granger      '
-// //***it's a bunch of nonsense****************
-// let newN1 = n1.match(/Harry/g);
-// let _newN1 = n1.match(/Potter/g);
-// let newN2 = n2.match(/Ron/g);
-// let _newN2 = n2.match(/Whisley/g);
-// let newN3 = n3.match(/Hermione/g);
-// let _newN3 = n3.match(/Granger/g);
+//***************вирішення - Юрій Бєлих***********************************
+// let n1 = '    Harry       Potter      ';
+// let n2 = '    Ron       Whisley      ';
+// let n3 = '    Hermione       Granger      ';
 //
-// function adjustStr(str1, str2) {
-//     return str1.concat(str2).join(' ');
+// function adjustStr(str) {
+//    return str
+//    .split(' ')
+//    .filter(x => {
+//        if(x.length > 0) {
+//            return true;
+//
+//        }
+//    })
+//    .join(' ');
 // }
 //
-// let name1 = adjustStr(newN1, _newN1);
-// let name2 = adjustStr(newN2, _newN2);
-// let name3 = adjustStr(newN3, _newN3);
-// console.log(name1, name2, name3);
+// console.log(adjustStr(n1));
+// console.log(adjustStr(n2));
+// console.log(adjustStr(n3));
+
 
 // 17)// Створити функцію яка :
 // Додає в боді блок з текстом "Hello owu"
