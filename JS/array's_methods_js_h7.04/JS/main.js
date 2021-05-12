@@ -63,19 +63,19 @@
 
 // 3) Все робити тільки за допомогою методів масивів!
 //     Дано масив :
-// const users = [
-//     {name: 'vasya', age: 31, isMarried: false},
-//     {name: 'petya', age: 30, isMarried: true},
-//     {name: 'kolya', age: 29, isMarried: true},
-//     {name: 'olya', age: 28, isMarried: false},
-//     {name: 'max', age: 30, isMarried: true},
-//     {name: 'anya', age: 31, isMarried: false},
-//     {name: 'oleg', age: 28, isMarried: false},
-//     {name: 'andrey', age: 29, isMarried: true},
-//     {name: 'masha', age: 30, isMarried: true},
-//     {name: 'olya', age: 31, isMarried: false},
-//     {name: 'max', age: 31, isMarried: true}
-// ];
+const users = [
+    {name: 'vasya', age: 31, isMarried: false},
+    {name: 'petya', age: 30, isMarried: true},
+    {name: 'kolya', age: 29, isMarried: true},
+    {name: 'olya', age: 28, isMarried: false},
+    {name: 'max', age: 30, isMarried: true},
+    {name: 'anya', age: 31, isMarried: false},
+    {name: 'oleg', age: 28, isMarried: false},
+    {name: 'andrey', age: 29, isMarried: true},
+    {name: 'masha', age: 30, isMarried: true},
+    {name: 'olya', age: 31, isMarried: false},
+    {name: 'max', age: 31, isMarried: true}
+];
 // a) відсортувати його за  віком (зростання , а потім окремо спадання)
 // b) відсортувати його за кількістю знаків в імені  (зростання , а потім окремо спадання)
 // c) пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний індентифікатор (По якому принципу його створювати - ваше рішення),
@@ -136,6 +136,9 @@
 //     if (user.isMarried) {
 //         acc.push({...user, flat: true});
 //     }
-//     // return acc;
+//     return acc;
 // }, []);
 // console.log(onlyMarried);
+
+
+

@@ -229,19 +229,19 @@
 // let n1 = '    Harry       Potter      ';
 // let n2 = '    Ron       Whisley      ';
 // let n3 = '    Hermione       Granger      ';
-//
+
 // function adjustStr(str) {
 //    return str
 //    .split(' ')
 //    .filter(x => {
 //        if(x.length > 0) {
 //            return true;
-//
+
 //        }
 //    })
 //    .join(' ');
 // }
-//
+
 // console.log(adjustStr(n1));
 // console.log(adjustStr(n2));
 // console.log(adjustStr(n3));
@@ -269,11 +269,6 @@
 // createBlock(tag, content);
 //
 //
-
-
-
-
-
 
 
 
