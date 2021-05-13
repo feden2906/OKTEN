@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: silver;
+  font-family: sans-serif;
+  padding: 20px 100px;
+}

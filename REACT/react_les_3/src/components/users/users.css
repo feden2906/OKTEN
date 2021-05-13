@@ -1,0 +1,16 @@
+.wrapper {
+    display: flex;
+    margin-top: 1em;
+}
+
+.users-box {
+    width: fit-content;
+    padding: 1rem;
+    border: 3px solid darkslategray;
+}
+
+.single-user-box {
+    width: fit-content;
+    padding: 1rem;
+    border: 3px solid darkcyan;
+}

@@ -1,0 +1,15 @@
+
+.posts-wrapper  {
+    display: grid;
+    grid: repeat(6, 1fr) / repeat(3, 1fr);
+    gap: 8px;
+    margin-top: 1em;
+}
+
+.post-box {
+    padding: 3px;
+    outline: 3px solid darkslategray;
+    color: navy;
+    background-color: #888;
+}
+
