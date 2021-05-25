@@ -10,10 +10,7 @@ export default function Counter() {
     const increment = (counter) => dispatch({type: 'INCREMENT', payload: counter});
     const decrement = (counter) => dispatch({type: 'DECREMENT', payload: counter});
     const reset = (counter) => dispatch({type: 'RESET', payload: counter});
-    const increase = (counter) => dispatch({type: '100_UP', payload: counter});
-    const decrease = (counter) => dispatch({type: '100_DOWN', payload: counter});
-    const userInc = (counter) => dispatch({type: 'USER_INC', payload: counter});
-    const userDec = (counter) => dispatch({type: 'USER_DEC', payload: counter});
+
   return (
     <div>
         <div>
@@ -25,12 +22,12 @@ export default function Counter() {
                     <button style={{background: 'red'}} onClick={() => reset(counter)}>↩</button>
                 </div>
                 <div>
-                    <button className={'hundred-btn'} onClick={() => increase(100)}>100 ↗</button>
-                    <button className={'hundred-btn'} onClick={() => decrease(100)}>100↘</button>
+                    <button className={'hundred-btn'} onClick={() => increment(100)}>100 ↗</button>
+                    <button className={'hundred-btn'} onClick={() => decrement(100)}>100↘</button>
                 </div>
                 <div>
-                    <button className={'user-btn'} onClick={() => userInc(Number(prompt('type your number to increase the counter')))}>click↗</button>
-                    <button className={'user-btn'} onClick={() => userDec(Number(prompt('type your number to decrease the counter')))}>click↘</button>
+                    <button className={'user-btn'} onClick={() => increment(Number(prompt('type your number to increase the counter')))}>click↗</button>
+                    <button className={'user-btn'} onClick={() => decrement(Number(prompt('type your number to decrease the counter')))}>click↘</button>
                 </div>
             </div>
         </div>

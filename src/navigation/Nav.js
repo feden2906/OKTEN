@@ -1,6 +1,5 @@
 import {Link} from "react-router-dom";
 
-
 export default function Nav() {
   return (
     <div style={{background: '#4b79b4', height: '10vh'}}>
