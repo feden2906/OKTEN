@@ -1,0 +1,4 @@
+<div>
+  <h3 [ngStyle]="{textAlign: 'center', background: 'navy', color: 'white'}">Posts</h3>
+  <app-post *ngFor="let singlePost of posts" [post]="singlePost"></app-post>
+</div>

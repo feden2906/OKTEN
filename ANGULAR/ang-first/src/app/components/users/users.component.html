@@ -1,4 +1,4 @@
-<div *ngFor="let user of users">
-  {{user.id}}
-  {{user.name}}
+<div>
+  <h3 [ngStyle]="{background: 'white', textAlign: 'center'}">Users</h3>
+  <app-user *ngFor="let person of users" [user]="person"></app-user>
 </div>
